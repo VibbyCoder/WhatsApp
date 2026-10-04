@@ -1,14 +1,14 @@
 # 📲 WhatsApp Desktop Client for Linux
 
-A lightweight, minimalist WhatsApp client for Linux — built using **Electron** and **Bootstrap**, supporting `.deb`, `.rpm` packages. Designed with a sleek dark mode interface and responsive layout.
+A lightweight, minimalist WhatsApp client for Linux — built using **Electron** and **Bootstrap**, supporting `.deb`, `.appimage` packages. Designed with a sleek dark mode interface and responsive layout.
 
 ---
 
 ## ✨ Features
 
-- ✅ Native support for **DEB** and **RPM** Linux distributions  
+- ✅ Native support for **DEB** and **AppImage** Linux distributions  
 - ✅ Clean & responsive **dark mode** UI  
-- ✅ Built with **Electron + Bootstrap**  
+- ✅ Built with **Electron**  
 - ✅ Resizable, desktop and touch-friendly view  
 - ✅ Secure WhatsApp Web wrapper  
 - ✅ Extremely lightweight and fast
@@ -22,8 +22,3 @@ A lightweight, minimalist WhatsApp client for Linux — built using **Electron**
 sudo dpkg -i whatsapp-linux-client.deb
 
 sudo apt --fix-broken install
-
-
-### 🔹 RPM (Fedora, RHEL, CentOS)
-
-sudo dnf install whatsapp-linux-client.rpm

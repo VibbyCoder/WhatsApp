@@ -1,0 +1,31 @@
+appId: com.vibbycoder.whatsapp
+productName: WhatsApp
+copyright: Copyright © 2026
+
+directories:
+  output: dist
+
+files:
+  - "**/*"
+  - "!dist/*"
+
+linux:
+  executableName: WhatsApp
+  target:
+    - deb
+    - AppImage
+  category: Network;Chat;InstantMessaging;
+  icon: assets/icon.png
+  maintainer: Jay Yemekar 
+  synopsis: Native WhatsApp Client
+  description: Lightweight native WhatsApp desktop wrapper with background sync and D-Bus integration.
+
+deb:
+  depends:
+    - libnotify4
+    - libnss3
+
+rpm:
+  depends:
+    - libnotify
+    - nss

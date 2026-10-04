@@ -1,0 +1,23 @@
+{
+  "name": "WhatsApp",
+  "version": "1.2.0",
+  "description": "Native WhatsApp desktop client for Linux",
+  "author": "Jay Yemekar",
+  "homepage": "https://github.com/VibbyCoder/WhatsApp-Linux",
+  "desktopName": "WhatsApp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "dist": "electron-builder --linux",
+    "dist:deb": "electron-builder --linux deb",
+    "dist:rpm": "electron-builder --linux rpm",
+    "dist:flatpak": "electron-builder --linux flatpak"
+  },
+  "dependencies": {
+    "dbus-next": "^0.10.2"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
